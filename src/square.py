@@ -8,6 +8,7 @@ def area(a):
     if (a <= 0):
         raise ValueError("Argument must be >0")
         
+    print("SVAGA")
     return a * a
 
 
