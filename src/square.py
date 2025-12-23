@@ -8,7 +8,6 @@ def area(a):
     if (a <= 0):
         raise ValueError("Argument must be >0")
         
-    print("SVAGA")
     return a * a
 
 
@@ -21,4 +20,4 @@ def perimeter(a):
     if (a <= 0):
         raise ValueError("Argument must be >0")
         
-    return 4 * a
+    return 5 * a
