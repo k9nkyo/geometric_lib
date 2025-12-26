@@ -43,7 +43,7 @@ def perimeter(r):
 
 ##Rectangle
 ### Area evaluation
-*Функция принимает длины двух сторон `a` и `b` и возвращает площадь прямоугольника.
+The function takes the lengths of two sides `a` and `b` and returns the area of the rectangle.
 ```python
 def area(a, b):
     '''
@@ -58,7 +58,7 @@ def area(a, b):
 >Example: area(1,2) returns 2
 
 ### Perimeter evaluation
-Функция принимает длины сторон `a` и `b` и возвращает периметр прямоугольника.
+The function takes the lengths of sides `a` and `b` and returns the perimeter of the rectangle.
 ```python
 def perimeter(a, b):
     '''
@@ -74,7 +74,7 @@ def perimeter(a, b):
 
 ## Square
 ### Area evaluation
-Функция принимает длину стороны квадрата `a` и возвращает его площадь.
+The function takes the length of the side of the square `a` and returns its area.
 ```python
 def area(a):
     '''
@@ -88,7 +88,7 @@ def area(a):
 >Example: area(2) returns 4
 
 ### Perimeter evaluation
-Функция принимает длину стороны квадрата `a` и возвращает его периметр.
+The function takes the length of the side of the square `a` and returns its perimeter.
 ```python
 def perimeter(a):
     '''
@@ -103,7 +103,7 @@ def perimeter(a):
 
 ## Triangle
 ### Area evaluation
-Функция принимает основание `a` и высоту `h` и возвращает площадь треугольника.
+The function takes the base `a` and height `h` and returns the area of the triangle.
 ```python
 def area(a, h):
     '''
@@ -118,7 +118,7 @@ def area(a, h):
 >Example: area(1, 2) returns 1
 
 ### Perimeter evaluation
-Функция принимает три стороны `a`, `b`, `c` и возвращает периметр треугольника.
+The function takes three sides `a`, `b`, `c` and returns the perimeter of the triangle.
 ```python
 def perimeter(a, b, c):
     '''
