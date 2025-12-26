@@ -3,77 +3,130 @@
 - Circle: S = πR²
 - Rectangle: S = ab
 - Square: S = a²
+- Triangle: S = ½ah
 
 ## Perimeter
 - Circle: P = 2πR
 - Rectangle: P = 2(a + b)
 - Square: P = 4a
+- Triangle: P = a + b + c
 
 # Functions
 ## Circle
 ### Area evaluation
-*(r-radius)*
+The function takes the radius of the circle `r` and returns its area.
 ```python
 def area(r):
+    '''
+    Аргументы:
+        r (int): радиус круга
+    Возвращает:
+        float: площадь круга
+    '''
 ```
 
 >Example: area(1) returns 3.14159265359
 
 ### Perimeter evaluation
-*(r-radius)*
+The function takes the radius `r` and returns the circumference.
 ```python
 def perimeter(r):
+    '''
+    Аргументы:
+        r (int): радиус круга
+    Возвращает:
+        float: длина окружности
+    '''
 ```
 
 >Example: perimeter(1) returns 6.28318530718
 
 ##Rectangle
 ### Area evaluation
-*(a,b - sides)*
+*Функция принимает длины двух сторон `a` и `b` и возвращает площадь прямоугольника.
 ```python
 def area(a, b):
+    '''
+    Аргументы:
+        a (int): сторона a
+        b (int): сторона b
+    Возвращает:
+        int: площадь прямоугольника
+    '''
 ```
 
 >Example: area(1,2) returns 2
 
 ### Perimeter evaluation
-*(a,b - sides)*
+Функция принимает длины сторон `a` и `b` и возвращает периметр прямоугольника.
 ```python
-def perimeter(a, b)
+def perimeter(a, b):
+    '''
+    Аргументы:
+        a (int): сторона a
+        b (int): сторона b
+    Возвращает:
+        int: периметр прямоугольника
+    '''
 ```
 
 >Example: perimeter(1, 2) returns 6
 
 ## Square
 ### Area evaluation
-*(a - side)*
+Функция принимает длину стороны квадрата `a` и возвращает его площадь.
 ```python
 def area(a):
+    '''
+    Аргументы:
+        a (int): сторона квадрата
+    Возвращает:
+        int: площадь квадрата
+    '''
 ```
 
 >Example: area(2) returns 4
 
 ### Perimeter evaluation
-*(a - side)*
+Функция принимает длину стороны квадрата `a` и возвращает его периметр.
 ```python
 def perimeter(a):
+    '''
+    Аргументы:
+        a (int): сторона квадрата
+    Возвращает:
+        int: периметр квадрата
+    '''
 ```
 
 >Example: perimeter(1) returns 4
 
 ## Triangle
 ### Area evaluation
-*(a - base, h - height)*
+Функция принимает основание `a` и высоту `h` и возвращает площадь треугольника.
 ```python
 def area(a, h):
+    '''
+    Аргументы:
+        a (int): основание
+        h (int): высота
+    Возвращает:
+        float: площадь треугольника
+    '''
 ```
 
 >Example: area(1, 2) returns 1
 
 ### Perimeter evaluation
-*(a,b,c - sides)*
+Функция принимает три стороны `a`, `b`, `c` и возвращает периметр треугольника.
 ```python
 def perimeter(a, b, c):
+    '''
+    Аргументы:
+        a, b, c (int): стороны треугольника
+    Возвращает:
+        int: периметр треугольника
+    '''
 ```
 
 >Example: perimeter(1, 2, 3) returns 6
